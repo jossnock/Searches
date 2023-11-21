@@ -48,7 +48,9 @@ def binary_search_recursive(search_item, array, array_start, array_end):
         return binary_search_recursive(search_item, array, array_start, array_midpoint - 1)
 
 
-
+#tests
 my_array = [1,2,3,4,6,7,9,13,15,18,25,28,35,36,39,56,83]
 
+print(linear_search(7,my_array))
+print(binary_search(7,my_array))
 print(binary_search_recursive(7,my_array, 0, 16))
